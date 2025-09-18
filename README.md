@@ -5,8 +5,8 @@ Install homebrew versions of libraries supported by Adagio.
 ```bash
 brew uninstall rocksdb
 brew unlink snappy
-brew install onfocusio/libs/snappy # 1.10.0
-brew install onfocusio/libs/rocksdb # 8.1.1
+brew install onfocusio/libs/snappy # 1.2.2
+brew install onfocusio/libs/rocksdb # 10.4.2
 ```
 
 Disclaimer: this can create problems with other brews that need a most recent version of snappy
