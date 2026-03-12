@@ -6,7 +6,7 @@ class Snappy < Formula
   license "BSD-3-Clause"
   head "https://github.com/google/snappy.git", branch: "master"
 
-  no_autobump! because: :requires_manual_review
+  no_autobump! because: "Managed by Adagio"
 
   bottle do
     sha256 cellar: :any,                 arm64_sequoia: "326d8c9a73e0990a43fefe96d2e29355fcd6f42906710017bd1a3baf4401bb33"
@@ -106,4 +106,3 @@ index cd71a47..ef040d1 100644
  endif(MSVC)
 
  # BUILD_SHARED_LIBS is a standard CMake variable, but we declare it here to make
- 
