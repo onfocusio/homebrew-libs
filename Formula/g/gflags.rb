@@ -5,8 +5,6 @@ class Gflags < Formula
   sha256 "34af2f15cf7367513b352bdcd2493ab14ce43692d2dcd9dfc499492966c64dcf"
   license "BSD-3-Clause"
 
-  no_autobump! because: "Managed by Adagio"
-
   bottle do
     rebuild 2
     sha256 cellar: :any,                 arm64_tahoe:    "39734f92f5ba9261156f77cff1ccb83f372b426d6062a380216f4f52f4d491ab"
